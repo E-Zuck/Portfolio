@@ -71,7 +71,7 @@ nav a:hover
   color: rgba(0, 0, 0, 0); /* To make text invisible */
 }
 
-a img
+.header_image
 {
   height: 45px;
 }
@@ -82,6 +82,7 @@ a:hover img
 
 .vines
 {
+  height: 25px;
   background-image: url(./Images/Vines.png);
   background-repeat: repeat-x;
 }
@@ -90,7 +91,10 @@ footer
 {
   background-color: #2646B7;
   height: 200px;
+  width: 100%;
   margin: 45px -25px -25px;
+  position: absolute;
+  bottom: 0;
 }
 footer a
 {
@@ -141,6 +145,7 @@ footer p
 
 
 /*** ID Selectors ***/
+
 
 #name
 {
