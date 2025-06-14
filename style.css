@@ -71,6 +71,21 @@ nav a:hover
   color: rgba(0, 0, 0, 0); /* To make text invisible */
 }
 
+a img
+{
+  height: 45px;
+}
+a:hover img
+{
+  height: 50px;
+}
+
+.vines
+{
+  background-image: url(./Images/Vines.png);
+  background-repeat: repeat-x;
+}
+
 footer
 {
   background-color: #2646B7;
