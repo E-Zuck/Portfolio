@@ -1,0 +1,135 @@
+body
+{
+  background-color: #F9F7DE;
+  margin: 25px;
+}
+
+header
+{
+  background-color: #2646B7;
+  height: 115px;
+  margin: -25px -25px 25px;
+}
+
+.grid
+{
+  display: grid;
+  grid-template-columns: repeat(12, 8%);
+}
+.grid_align
+{
+  grid-column: 4/11;
+}
+.grid_align_hero
+{
+  grid-column: 5/11;
+  margin-left: -20px;
+}
+.grid_footer_left
+{
+  grid-column: 4/8;
+}
+.grid_footer_right
+{
+  grid-column: 9/12;
+}
+
+.flex_container
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_dimension
+{
+  height: 115px;
+}
+nav
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+}
+nav a
+{
+  color: white;
+  font-size: 25px;
+  font-family: "Spectral", sans-serif;
+  text-decoration: none;
+}
+nav a:hover
+{
+  text-decoration: underline;
+  /* TODO: Add background image instead of changing color */
+}
+.v_line
+{
+  border-left: 3px solid white;
+  height: 45px;
+  color: rgba(0, 0, 0, 0); /* To make text invisible */
+}
+
+footer
+{
+  background-color: #2646B7;
+  height: 200px;
+  margin: 45px -25px -25px;
+}
+footer a
+{
+  color: white;
+  font-family: "Spectral", sans-serif;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 8px;
+}
+footer a:hover
+{
+  text-decoration: underline;
+}
+
+
+/*** Fonts & Body Text ***/
+
+
+h1
+{
+  font-family: "Stardos Stencil", serif;
+  font-size: 72px;
+}
+h5
+{
+  font-family: "Spectral", sans-serif;
+  font-size: 20px;
+}
+h6
+{
+  font-family: "Stardos Stencil", serif;
+  font-size: 20px;
+}
+footer h6
+{
+  color: white;
+  text-decoration: underline double;
+  margin: 30px 0px 18px;
+}
+p
+{
+  font-family: "Spectral", sans-serif;
+}
+footer p
+{
+  color: white;
+}
+
+
+/*** ID Selectors ***/
+
+#name
+{
+  display: inline;
+}
+
+/** "Tablet" @ less than 950px **/ 
