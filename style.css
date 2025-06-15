@@ -17,6 +17,13 @@ header
   display: grid;
   grid-template-columns: repeat(12, 8%);
 }
+.headfoot_grid
+{
+  margin: 0px 25px;
+  display: grid;
+  grid-template-columns: repeat(12, 8%);
+}
+
 .grid_align
 {
   grid-column: 4/11;
@@ -28,12 +35,6 @@ header
 .grid_footer_right
 {
   grid-column: 9/12;
-}
-
-.center
-{
-  margin: auto;
-  width: 50%;
 }
 
 .flex_container
@@ -109,7 +110,7 @@ footer
   background-color: #2646B7;
   height: 200px;
   width: 100%;
-  margin: 45px 0px 0px;
+  margin: 25px -25px -25px;
 }
 footer a
 {
