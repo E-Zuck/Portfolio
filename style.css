@@ -2,6 +2,7 @@ body
 {
   background-color: #F9F7DE;
   margin: 25px;
+  min-height: 100vh;
 }
 
 header
@@ -20,11 +21,6 @@ header
 {
   grid-column: 4/11;
 }
-.grid_align_hero
-{
-  grid-column: 5/11;
-  margin-left: -20px;
-}
 .grid_footer_left
 {
   grid-column: 4/8;
@@ -32,6 +28,12 @@ header
 .grid_footer_right
 {
   grid-column: 9/12;
+}
+
+.center
+{
+  margin: auto;
+  width: 50%;
 }
 
 .flex_container
@@ -101,9 +103,7 @@ footer
   background-color: #2646B7;
   height: 200px;
   width: 100%;
-  margin: 45px -25px -25px;
-  position: absolute;
-  bottom: 0;
+  margin: 45px 0px 0px;
 }
 footer a
 {
