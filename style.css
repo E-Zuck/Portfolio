@@ -77,14 +77,23 @@ nav a:hover
 }
 a:hover img
 {
-  height: 50px;
+  height: 55px;
 }
 
 .vines
 {
-  height: 25px;
+  height: 44px;
   background-image: url(./Images/Vines.png);
   background-repeat: repeat-x;
+}
+.star
+{
+  height: 35px;
+}
+.flower
+{
+  height: 45px;
+  margin: 0px 10px;
 }
 
 footer
