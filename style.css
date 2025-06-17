@@ -2,7 +2,10 @@ body
 {
   background-color: #F9F7DE;
   margin: 25px;
-  min-height: 100vh;
+}
+.body_stretch
+{
+  min-height: 98vh;
 }
 
 header
@@ -35,6 +38,7 @@ header
 .grid_footer_right
 {
   grid-column: 9/12;
+  margin-left: 3.5vw;
 }
 
 .flex_container
@@ -53,6 +57,7 @@ header
 .nav_dimension
 {
   height: 115px;
+  /* Gives navigation items space to be centered */
 }
 nav
 {
@@ -77,7 +82,7 @@ nav a:hover
 {
   border-left: 3px solid white;
   height: 45px;
-  color: rgba(0, 0, 0, 0); /* To make text invisible */
+  color: rgba(0, 0, 0, 0); /* Make filler text invisible */
 }
 
 .header_image
@@ -109,7 +114,6 @@ footer
 {
   background-color: #2646B7;
   height: 200px;
-  width: 100%;
   margin: 25px -25px -25px;
 }
 footer a
@@ -168,4 +172,5 @@ footer p
   display: inline;
 }
 
-/** "Tablet" @ less than 950px **/ 
+/** Make flowers smaller @ less than 1245px **/
+/** "Tablet" @ less than 1070px **/ 
