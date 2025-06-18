@@ -5,7 +5,7 @@ body
 }
 .body_stretch
 {
-  min-height: 98vh;
+  min-height: 88vh;
 }
 
 header
@@ -113,8 +113,8 @@ a:hover img
 footer
 {
   background-color: #2646B7;
-  height: 200px;
-  margin: 25px -25px -25px;
+  height: 220px;
+  margin: 50px -25px -25px;
 }
 footer a
 {
@@ -152,7 +152,7 @@ footer h6
 {
   color: white;
   text-decoration: underline double;
-  margin: 30px 0px 18px;
+  margin: 30px 0px 20px;
 }
 p
 {
@@ -161,6 +161,10 @@ p
 footer p
 {
   color: white;
+}
+.center_text
+{
+  text-align: center;
 }
 
 
