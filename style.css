@@ -114,11 +114,11 @@ a:hover img
   margin: 0px 10px;
 }
 
-footer
+footer table
 {
   background-color: #2646B7;
   min-height: 12vh;
-  height: 220px;
+  width: 100vw;
   margin: 50px -25px -25px;
 }
 footer a
