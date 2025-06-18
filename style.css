@@ -18,13 +18,13 @@ header
 .grid
 {
   display: grid;
-  grid-template-columns: repeat(12, 8.3%);
+  grid-template-columns: repeat(13, 7.68%);
 }
 .headfoot_grid
 {
   margin: 0px 25px;
   display: grid;
-  grid-template-columns: repeat(12, 8.3%);
+  grid-template-columns: repeat(13, 7.68%);
 }
 
 .grid_align
@@ -37,8 +37,7 @@ header
 }
 .grid_footer_right
 {
-  grid-column: 9/12;
-  margin-left: 3.5vw;
+  grid-column: 10/12;
 }
 
 .flex_container
@@ -69,7 +68,7 @@ nav
 nav a
 {
   color: white;
-  font-size: 25px;
+  font-size: 18pt;
   font-family: "Spectral", sans-serif;
   text-decoration: none;
 }
@@ -94,6 +93,11 @@ a:hover img
   height: 50px;
 }
 
+.inline
+{
+  display: inline;
+}
+
 .vines
 {
   height: 44px;
@@ -113,6 +117,7 @@ a:hover img
 footer
 {
   background-color: #2646B7;
+  min-height: 12vh;
   height: 220px;
   margin: 50px -25px -25px;
 }
@@ -138,22 +143,22 @@ h1
   font-family: "Stardos Stencil", serif;
   font-size: 72px;
 }
-h5
+h3
 {
-  font-family: "Spectral", sans-serif;
-  font-size: 20px;
+  margin: 20px 0px;
+  font-family: "Stardos Stencil", serif;
+  font-size: 15pt;
+}
+footer h3
+{
+  margin: 30px 0px 20px;
+  color: white;
+  text-decoration: underline double;
 }
 h6
 {
   margin: 20px 0px;
   font-family: "Stardos Stencil", serif;
-  font-size: 20px;
-}
-footer h6
-{
-  margin: 30px 0px 20px;
-  color: white;
-  text-decoration: underline double;
 }
 p
 {
@@ -179,11 +184,24 @@ footer p
 
 
 /** Media Queries **/
-/** "Tablet" @ less than 1070px **/ 
-@media (max-width: 1070px)
+/** "Tablet" @ less than 1110px **/ 
+@media (max-width: 1110px)
 {
   .grid_align
   {
-    grid-column: 2/12;
+    grid-column: 2/13;
+  }
+  .grid_footer_left
+  {
+    grid-column: 2/8;
+  }
+  .grid_footer_right
+  {
+    grid-column: 11/13;
+    margin-left: -2vw;
   }
 }
+
+/** Remove LinkedIn icon and shrink logo to 35px and shrink links to 20px @ 745px
+
+"Phone" resolution @ 560px
