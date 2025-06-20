@@ -85,6 +85,26 @@ nav a:hover
   color: rgba(0, 0, 0, 0); /* Make filler text invisible */
 }
 
+.inline {
+  display: inline;
+}
+
+button
+{
+  border: #A41910;
+  background-color: #2C3D99;
+  color: white;
+  font-family: "Spectral", sans-serif;
+  padding: 7px;
+}
+button:hover
+{
+  box-shadow: 
+  0 4px 8px 0 grey,
+  0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  /* Code modified from W3 Schools: https: //www.w3schools.com/css/css3_buttons.asp */
+}
+
 .header_image
 {
   height: 45px;
@@ -92,11 +112,6 @@ nav a:hover
 a:hover img
 {
   height: 50px;
-}
-
-.inline
-{
-  display: inline;
 }
 
 .vines
