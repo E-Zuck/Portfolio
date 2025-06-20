@@ -10,9 +10,10 @@ body
 
 header
 {
-  background-color: #2646B7;
+  background-color: #2C3D99;
   height: 115px;
   margin: -25px -25px 25px;
+  box-shadow: 0px 3px 5px grey;
 }
 
 .grid
@@ -116,7 +117,7 @@ a:hover img
 
 footer table
 {
-  background-color: #2646B7;
+  background-color: #2C3D99;
   min-height: 12vh;
   width: 100vw;
   margin: 50px -25px -25px;
@@ -143,6 +144,11 @@ h1
   font-family: "Stardos Stencil", serif;
   font-size: 72px;
 }
+h2
+{
+  font-family: "Stardos Stencil", serif;
+  font-size: 25pt;
+}
 h3
 {
   margin: 20px 0px;
@@ -159,6 +165,10 @@ h6
 {
   margin: 20px 0px;
   font-family: "Stardos Stencil", serif;
+}
+li
+{
+  font-family: "Spectrail", sans-serif;
 }
 p
 {
