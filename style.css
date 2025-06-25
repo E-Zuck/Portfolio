@@ -1,14 +1,14 @@
-body
+body 
 {
   background-color: #F9F7DE;
   margin: 25px;
 }
-.body_stretch
+.body_stretch 
 {
   min-height: 88vh;
 }
 
-header
+header 
 {
   background-color: #2C3D99;
   height: 115px;
@@ -16,132 +16,109 @@ header
   box-shadow: 0px 3px 5px grey;
 }
 
-.grid
+.grid 
 {
   display: grid;
   grid-template-columns: repeat(13, 7.68%);
 }
-.headfoot_grid
+.headfoot_grid 
 {
   margin: 0px 25px;
   display: grid;
   grid-template-columns: repeat(13, 7.68%);
 }
-
-.grid_align
+.grid_align 
 {
   grid-column: 4/11;
 }
-.grid_footer_left
+.grid_footer_left 
 {
   grid-column: 4/8;
 }
-.grid_footer_right
+.grid_footer_right 
 {
   grid-column: 10/12;
 }
 
-.flex_container
+.flex_container 
 {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.flex_center
+.flex_center 
 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.nav_dimension
+.nav_dimension 
 {
-  height: 115px;
-  /* Separate value than header height */
+  height: 115px; /* Separate value than header height */
 }
-nav
+nav 
 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 18px;
 }
-nav a
+nav a 
 {
   color: white;
   font-size: 18pt;
   font-family: "Spectral", sans-serif;
   text-decoration: none;
 }
-nav a:hover
+nav a:hover 
 {
   text-decoration: underline;
 }
-.v_line
+
+.v_line 
 {
   border-left: 3px solid white;
   height: 45px;
   color: rgba(0, 0, 0, 0); /* Make filler text invisible */
 }
 
-.inline {
+.inline 
+{
   display: inline;
 }
 
-button
+.outline 
+{
+  outline-color: #FF3A2F;
+  outline-style: groove;
+}
+
+button 
 {
   background-color: #2C3D99;
   color: white;
   font-family: "Spectral", sans-serif;
   padding: 7px;
 }
-button:hover
+
+button:hover 
 {
-  box-shadow: 
-  0 4px 8px 0 grey,
-  0 17px 50px 0 rgba(0, 0, 0, 0.19);
-  /* Code modified from W3 Schools: https: //www.w3schools.com/css/css3_buttons.asp */
+  box-shadow:
+    0 4px 8px 0 grey,
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  /* Code modified from W3 Schools. https://www.w3schools.com/css/css3_buttons.asp */
 }
 
-.header_image
-{
-  height: 45px;
-}
-a:hover img
-{
-  height: 50px;
-}
-
-.vines
-{
-  height: 44px;
-  background-image: url(./Images/Vines.png);
-  background-repeat: repeat-x;
-}
-.star
-{
-  height: 35px;
-}
-.flower
-{
-  height: 45px;
-  margin: 0px 10px;
-}
-
-tr
-{
-  outline-color: #A41910;
-  outline-style: groove;
-}
-
-footer table
+footer table 
 {
   background-color: #2C3D99;
   min-height: 12vh;
   width: 100vw;
   margin: 50px -25px -25px;
 }
-footer a
+
+footer a 
 {
   color: white;
   font-family: "Spectral", sans-serif;
@@ -149,55 +126,86 @@ footer a
   display: block;
   margin-bottom: 8px;
 }
-footer a:hover
+
+footer a:hover 
 {
   text-decoration: underline;
+}
+
+
+/*** Images ***/
+
+
+.header_image 
+{
+  height: 45px;
+}
+a:hover img 
+{
+  height: 50px;
+}
+
+.vines 
+{
+  height: 44px;
+  background-image: url(./Images/Vines.png);
+  background-repeat: repeat-x;
+}
+.star 
+{
+  height: 35px;
+}
+.flower 
+{
+  height: 45px;
+  margin: 0px 10px;
 }
 
 
 /*** Fonts & Body Text ***/
 
 
-h1
+h1 
 {
   font-family: "Stardos Stencil", serif;
   font-size: 72px;
 }
-h2
+h2 
 {
   font-family: "Stardos Stencil", serif;
   font-size: 25pt;
 }
-h3
+h3 
 {
   margin: 20px 0px;
   font-family: "Stardos Stencil", serif;
   font-size: 15pt;
 }
-footer h3
+footer h3 
 {
   margin: 30px 0px 20px;
   color: white;
   text-decoration: underline double;
 }
-h6
+h6 
 {
   margin: 20px 0px;
   font-family: "Stardos Stencil", serif;
 }
-li
+li 
 {
   font-family: "Spectral", sans-serif;
 }
-p
+p 
 {
   font-family: "Spectral", sans-serif;
 }
-footer p
+footer p 
 {
   color: white;
 }
-.center_text
+
+.center_text 
 {
   text-align: center;
 }
@@ -206,25 +214,26 @@ footer p
 /*** ID Selectors ***/
 
 
-#name
+#name 
 {
   display: inline;
 }
 
 
 /** Media Queries **/
-/** "Tablet" @ less than 1110px **/ 
-@media (max-width: 1110px)
-{
-  .grid_align
+/** "Tablet" @ less than 1110px **/
+@media (max-width: 1110px) {
+  .grid_align 
   {
     grid-column: 2/13;
   }
-  .grid_footer_left
+
+  .grid_footer_left 
   {
     grid-column: 2/8;
   }
-  .grid_footer_right
+
+  .grid_footer_right 
   {
     grid-column: 11/13;
     margin-left: -2vw;
