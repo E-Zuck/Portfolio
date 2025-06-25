@@ -231,6 +231,12 @@ footer p
   display: inline;
 }
 
+#index_IAC_readmore
+{
+  width: -webkit-fill-available;
+  margin: 10px 0px 0px;
+}
+
 
 /** Media Queries **/
 /** "Tablet" @ less than 1110px **/
