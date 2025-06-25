@@ -76,7 +76,6 @@ nav a
 nav a:hover
 {
   text-decoration: underline;
-  /* TODO: Add background image instead of underline */
 }
 .v_line
 {
@@ -91,7 +90,6 @@ nav a:hover
 
 button
 {
-  border: #A41910;
   background-color: #2C3D99;
   color: white;
   font-family: "Spectral", sans-serif;
@@ -128,6 +126,12 @@ a:hover img
 {
   height: 45px;
   margin: 0px 10px;
+}
+
+tr
+{
+  outline-color: #A41910;
+  outline-style: groove;
 }
 
 footer table
@@ -183,7 +187,7 @@ h6
 }
 li
 {
-  font-family: "Spectrail", sans-serif;
+  font-family: "Spectral", sans-serif;
 }
 p
 {
