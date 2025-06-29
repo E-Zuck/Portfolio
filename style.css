@@ -52,6 +52,13 @@ header
   justify-content: center;
   align-items: center;
 }
+.flex_start
+{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
 
 .nav_dimension 
 {
@@ -94,6 +101,16 @@ nav a:hover
   outline-style: double;
 }
 
+.less_margin
+{
+  margin: 5px 0px;
+}
+
+.left_padding
+{
+  padding-left: 15px;
+}
+
 button 
 {
   background-color: #2C3D99;
@@ -108,12 +125,6 @@ button:hover
     0 4px 8px 0 grey,
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
   /* Code modified from W3 Schools. https://www.w3schools.com/css/css3_buttons.asp */
-}
-
-/* table */
-td p
-{
-  padding-left: 15px;
 }
 
 footer table 
@@ -198,13 +209,16 @@ footer h3
 }
 h5
 {
+  margin: 25px 0px 5px 0px;
   font-family: "Spectral", sans-serif;
-  text-decoration: underline overline;
+  font-size: 11pt;
+  text-decoration: underline overline dotted;
 }
 h6 
 {
   margin: 20px 0px;
   font-family: "Stardos Stencil", serif;
+  font-size: 10pt;
 }
 li 
 {
@@ -213,11 +227,16 @@ li
 p 
 {
   font-family: "Spectral", sans-serif;
+  font-size: 12pt;
 }
 footer p 
 {
   color: white;
 }
+
+/* Font size combos: 
+p 12pt - h3 17pt
+*/
 
 .center_text 
 {
@@ -228,15 +247,10 @@ footer p
 /*** ID Selectors ***/
 
 
-#name 
-{
-  display: inline;
-}
-
 #index_IAC_readmore
 {
   width: -webkit-fill-available;
-  margin: 10px 0px 0px;
+  margin: 10px 0px;
 }
 
 
