@@ -110,13 +110,10 @@ button:hover
   /* Code modified from W3 Schools. https://www.w3schools.com/css/css3_buttons.asp */
 }
 
-table
+/* table */
+td p
 {
-  border-spacing: 0px 10px;
-}
-tr a button
-{
-  width: -webkit-fill-available;
+  padding-left: 15px;
 }
 
 footer table 
@@ -154,7 +151,7 @@ a:hover img
 
 td img
 {
-  height: 100px;
+  height: 120px;
 }
 
 .vines 
@@ -198,6 +195,11 @@ footer h3
   margin: 30px 0px 20px;
   color: white;
   text-decoration: underline double;
+}
+h5
+{
+  font-family: "Spectral", sans-serif;
+  text-decoration: underline overline;
 }
 h6 
 {
