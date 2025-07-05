@@ -116,7 +116,7 @@ button
   background-color: #2C3D99;
   color: white;
   font-family: "Spectral", sans-serif;
-  padding: 7px;
+  padding: 7px; /* TODO: 12px padding on mobile to make it 48px high */
 }
 
 button:hover 
@@ -175,6 +175,10 @@ td img
 {
   height: 35px;
 }
+.small_star
+{
+  height: 20px;
+}
 .flower 
 {
   height: 45px;
@@ -212,7 +216,7 @@ h5
   margin: 25px 0px 5px 0px;
   font-family: "Spectral", sans-serif;
   font-size: 11pt;
-  text-decoration: underline overline dotted;
+  text-decoration: underline dotted;
 }
 h6 
 {
@@ -250,13 +254,13 @@ p 12pt - h3 17pt
 #index_IAC_readmore
 {
   width: -webkit-fill-available;
-  margin: 10px 0px;
+  margin: 10px 0px 20px;
 }
 
 
 /** Media Queries **/
 /** "Tablet" @ less than 1110px **/
-@media (max-width: 1110px) {
+@media (max-width: 1200px) {
   .grid_align 
   {
     grid-column: 2/13;
