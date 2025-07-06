@@ -101,6 +101,11 @@ nav a:hover
   outline-style: double;
 }
 
+.size_fill
+{
+  width: -webkit-fill-available;
+}
+
 .less_margin
 {
   margin: 5px 0px;
@@ -253,7 +258,6 @@ p 12pt - h3 17pt
 
 #index_IAC_readmore
 {
-  width: -webkit-fill-available;
   margin: 10px 0px 20px;
 }
 
@@ -278,6 +282,12 @@ p 12pt - h3 17pt
   }
 }
 
-/** Remove LinkedIn icon and shrink logo to 35px and shrink links to 20px @ 745px
+/** 
+@ 745px:
+h1 font size 45pt
+header_img height 40px
+nav a font size 16pt
 
-"Phone" resolution @ 560px
+
+TODO: Mobile Responsive - Hamburger Menu
+"Phone" resolution @ 645px
