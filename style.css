@@ -269,30 +269,36 @@ p 12pt - h3 17pt
   {
     grid-column: 2/13;
   }
-
-  .grid_footer_left 
-  {
+  .grid_footer_left {
     grid-column: 2/8;
   }
-
-  .grid_footer_right 
-  {
+  .grid_footer_right {
     grid-column: 11/13;
     margin-left: -2vw;
   }
 }
 
 @media (min-width: 646px) and (max-width: 735px) {
+  .grid_align 
+  {
+    grid-column: 2/13;
+  }
+  .grid_footer_left {
+    grid-column: 2/8;
+  }
+  .grid_footer_right {
+    grid-column: 11/13;
+    margin-left: -2vw;
+  }
+  
   h1
   {
     font-size: 45pt;
   }
-  nav a
-  {
+  nav a {
     font-size: 16pt;
   }
-  .header_image 
-  {
+  .header_image {
     height: 40px;
   }
 }
@@ -319,10 +325,4 @@ p 12pt - h3 17pt
 }
 
 /** 
-
 TODO: Mobile Responsive - Hamburger Menu
-"Phone" resolution @ 645px
-
-
-
-
