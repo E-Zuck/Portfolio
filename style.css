@@ -264,7 +264,7 @@ p 12pt - h3 17pt
 
 /** Media Queries **/
 /** "Tablet" @ less than 1110px **/
-@media (max-width: 1200px) {
+@media (min-width: 736px) and (max-width: 1200px) {
   .grid_align 
   {
     grid-column: 2/13;
@@ -282,7 +282,7 @@ p 12pt - h3 17pt
   }
 }
 
-@media (max-width: 735px) {
+@media (min-width: 646px) and (max-width: 735px) {
   h1
   {
     font-size: 45pt;
@@ -307,8 +307,7 @@ p 12pt - h3 17pt
   .headfoot_grid {
     grid-template-columns: repeat(8, 12.5%)
   }
-  .grid_align 
-  {
+  .grid_align {
     grid-column: 2/8;
   }
   .grid_footer_left {
