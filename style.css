@@ -33,11 +33,11 @@ header
 }
 .grid_footer_left 
 {
-  grid-column: 4/8;
+  grid-column: 4/6;
 }
 .grid_footer_right 
 {
-  grid-column: 10/12;
+  grid-column: 7/11;
 }
 
 .flex_container 
@@ -121,6 +121,7 @@ button
   background-color: #2C3D99;
   color: white;
   font-family: "Spectral", sans-serif;
+  margin: 10px 0px;
   padding: 7px; /* TODO: 12px padding on mobile to make it 48px high */
 }
 
@@ -255,10 +256,9 @@ p 12pt - h3 17pt
 
 /*** ID Selectors ***/
 
-
-#index_IAC_readmore
+#footer_pad
 {
-  margin: 10px 0px 20px;
+  padding-bottom: 25px;
 }
 
 
@@ -270,11 +270,10 @@ p 12pt - h3 17pt
     grid-column: 2/13;
   }
   .grid_footer_left {
-    grid-column: 2/8;
+    grid-column: 2/6;
   }
   .grid_footer_right {
-    grid-column: 11/13;
-    margin-left: -2vw;
+    grid-column: 6/13;
   }
 }
 
@@ -284,11 +283,10 @@ p 12pt - h3 17pt
     grid-column: 2/13;
   }
   .grid_footer_left {
-    grid-column: 2/8;
+    grid-column: 2/6;
   }
   .grid_footer_right {
-    grid-column: 11/13;
-    margin-left: -2vw;
+    grid-column: 6/13;
   }
   
   h1
@@ -322,7 +320,17 @@ p 12pt - h3 17pt
   .grid_footer_right {
     grid-column: 2/8;
   }
+
+  .mobile_vanish
+  {
+    display: none;
+  }
 }
 
 /** 
-TODO: Mobile Responsive - Hamburger Menu
+TODO: 
+Mobile Responsive - Hamburger Menu
+
+
+COULD HAVE:
+Right-align right footer text
