@@ -197,7 +197,7 @@ td img
 h1 
 {
   font-family: "Stardos Stencil", serif;
-  font-size: 72px;
+  font-size: 54pt;
 }
 h2 
 {
@@ -282,12 +282,48 @@ p 12pt - h3 17pt
   }
 }
 
-/** 
-@ 745px:
-h1 font size 45pt
-header_img height 40px
-nav a font size 16pt
+@media (max-width: 735px) {
+  h1
+  {
+    font-size: 45pt;
+  }
+  nav a
+  {
+    font-size: 16pt;
+  }
+  .header_image 
+  {
+    height: 40px;
+  }
+}
 
+/** "Mobile" @ less than 645px **/
+
+@media (max-width: 645px) {
+  .grid 
+  {
+    grid-template-columns: repeat(8, 12.5%)
+  }
+  .headfoot_grid {
+    grid-template-columns: repeat(8, 12.5%)
+  }
+  .grid_align 
+  {
+    grid-column: 2/8;
+  }
+  .grid_footer_left {
+    grid-column: 2/8;
+  }
+  .grid_footer_right {
+    grid-column: 2/8;
+  }
+}
+
+/** 
 
 TODO: Mobile Responsive - Hamburger Menu
 "Phone" resolution @ 645px
+
+
+
+
