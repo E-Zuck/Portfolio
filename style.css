@@ -1,7 +1,7 @@
 body 
 {
   background-color: #F9F7DE;
-  margin: 25px;
+  margin: 0px;
 }
 .body_stretch 
 {
@@ -12,18 +12,11 @@ header
 {
   background-color: #2C3D99;
   height: 115px;
-  margin: -25px -25px 25px;
   box-shadow: 0px 3px 5px grey;
 }
 
 .grid 
 {
-  display: grid;
-  grid-template-columns: repeat(13, 7.68%);
-}
-.headfoot_grid 
-{
-  margin: 0px 25px;
   display: grid;
   grid-template-columns: repeat(13, 7.68%);
 }
@@ -137,8 +130,7 @@ footer table
 {
   background-color: #2C3D99;
   min-height: 12vh;
-  width: 100vw;
-  margin: 50px -25px -25px;
+  width: 100%;
 }
 footer a 
 {
