@@ -11,8 +11,14 @@ body
 header 
 {
   background-color: #2C3D99;
+  margin-bottom: 25px;
   height: 115px;
   box-shadow: 0px 3px 5px grey;
+}
+
+footer
+{
+  margin-top: 25px;
 }
 
 .grid 
@@ -168,6 +174,7 @@ td img
   height: 44px;
   background-image: url(./Images/Vines.png);
   background-repeat: repeat-x;
+  margin: 25px 0px;
 }
 .star 
 {
@@ -326,3 +333,9 @@ Mobile Responsive - Hamburger Menu
 
 COULD HAVE:
 Right-align right footer text
+
+
+
+NOTE:
+When style rules conflict, but have the same specificity,
+which rule to apply will be determined by which rule comes later in the cascade.
