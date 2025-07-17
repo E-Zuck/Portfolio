@@ -123,6 +123,10 @@ button
   margin: 10px 0px;
   padding: 7px; /* TODO: 12px padding on mobile to make it 48px high */
 }
+.wide_button
+{
+  padding: 10px 25px;
+}
 
 button:hover 
 {
@@ -174,7 +178,7 @@ td img
   height: 44px;
   background-image: url(./Images/Vines.png);
   background-repeat: repeat-x;
-  margin: 25px 0px;
+  margin: 35px 0px;
 }
 .star 
 {
@@ -183,6 +187,10 @@ td img
 .small_star
 {
   height: 20px;
+}
+.star_adjust
+{
+  padding-bottom: 10px;
 }
 .flower 
 {
@@ -220,8 +228,8 @@ h5
 {
   margin: 25px 0px 5px 0px;
   font-family: "Spectral", sans-serif;
-  font-size: 11pt;
-  text-decoration: underline dotted;
+  font-size: 12pt;
+  text-decoration: underline;
 }
 h6 
 {
@@ -260,6 +268,14 @@ p 12pt - h3 17pt
   padding-bottom: 25px;
 }
 
+#IHBM /** Index Hero Bottom Margin **/
+{
+  margin-bottom: 60px;
+}
+#IFTM /** Index Footer Top Margin **/
+{
+  margin-top: 75px;
+}
 
 /** Media Queries **/
 /** "Tablet" @ less than 1110px **/
