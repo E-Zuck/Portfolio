@@ -53,11 +53,10 @@ footer
   justify-content: space-between;
   align-items: center;
 }
-.flex_vertical_center
+.flex_vertical
 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 .flex_center 
 {
@@ -293,6 +292,12 @@ p 12pt - h3 17pt
 #IFTM /** Index Footer Top Margin **/
 {
   margin-top: 75px;
+}
+
+#SBPL /** Star Bullet Point List **/
+{
+  height: 300px;
+  justify-content: space-around;
 }
 
 /** Media Queries **/
