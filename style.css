@@ -365,6 +365,29 @@ p 12pt - h3 17pt
   }
 }
 
+/** Let's see if this code works for mobile only **/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)
+{
+  header {
+    height: 175px;
+  }
+  .nav_dimension {
+    height: 175px;
+    /* Separate value than header height */
+  }
+  nav a { 
+
+  }
+  button {
+    height: 75px;
+    font-size: 22pt;
+  }
+
+  h2 {
+    margin-bottom: 80px;
+  }
+}
+
 /** 
 TODO: 
 Mobile Responsive - Hamburger Menu
