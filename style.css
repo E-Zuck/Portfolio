@@ -122,6 +122,11 @@ nav a:hover
   margin: 5px 0px;
 }
 
+.top_margin
+{
+  margin-top: 32px;
+}
+
 .left_padding
 {
   padding-left: 15px;
@@ -375,9 +380,11 @@ p 12pt - h3 17pt
     height: 175px;
     /* Separate value than header height */
   }
+  /*
   nav a { 
 
   }
+  */
   button {
     height: 75px;
     font-size: 22pt;
