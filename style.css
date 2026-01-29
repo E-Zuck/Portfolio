@@ -305,6 +305,11 @@ p 12pt - h3 17pt
   justify-content: space-around;
 }
 
+#PDFRB /** PDF Resume Button **/
+{
+  margin-bottom: 48px;
+}
+
 /** Media Queries **/
 /** "Tablet" @ less than 1110px **/
 @media (min-width: 736px) and (max-width: 1200px) {
